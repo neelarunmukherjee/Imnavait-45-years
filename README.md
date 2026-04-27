@@ -1,3 +1,5 @@
+[![Paper DOI](https://img.shields.io/badge/Paper-DOI-blue)](https://doi.org/10.XXXX/XXXXX)
+[![Data DOI](https://img.shields.io/badge/Data-ESS--DIVE-green)](https://doi.org/10.XXXX/XXXXX)
 # Imnavait-45-years
 
 **Data and model code for:**
