@@ -107,8 +107,8 @@ ats inputs/column_freezeup_imnavait.xml >out.log 2>out.err &
 # Step 2 — steady-state spin-up
 ats inputs/column_spinup_imnavait_smoothedMet.xml >out.log 2>out.err &
 
-# Step 3 — 1D transient calibration (1981–2020)
-ats inputs/column_spinup_imnavait_realMet_daac_ABoVE_snowmodel_1981_2020.xml >out.log 2>out.err &
+# Step 3 — 1D transient calibration (1981–2020) or (2019-2024)
+ats inputs/column_spinup_imnavait_realMet_daac_ABoVE_snowmodel_<xxxx>_<xxxx>.xml >out.log 2>out.err &
 
 # Step 4 — 2D transient run (1981–2020)
 mpirun -np 8 ats inputs/transect_run_imnavait_realMet_daac_ABoVE_snowmodel_1981_2020.xml >out.log 2>out.err &
