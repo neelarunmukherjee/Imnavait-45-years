@@ -1,0 +1,55 @@
+,File_Name,File_Description,Standard,Start_Date,End_Date,Missing_Value_Codes,File_Path
+0,IMP_dtw_dti.csv,Field observation for depth to water and depth to ice from Imnavait transect,N/A,06 June 2024,21 Aug 2024,N/A,./data/
+1,IMP-DTW-time-series.csv,Field observation time series for depth to water table along Imnavait transect,N/A,20 Jun 2024,07 Sep 2024,N/A,./data/
+2,max_summer_enthalpy_1981_2024.csv,Annual maximum summer soil enthalpy simulated by ATS at Imnavait 1981-2024,N/A,01 Jan 1981,31 Dec 2024,N/A,./data/
+3,SM_Data_daily_Imnavait.csv,Daily meteorological and snowpack data from SnowModel at Imnavait site,N/A,01 Sep 2018,31 Aug 2025,N/A,./data/
+4,column_data_freezeup.h5,ATS model output HDF5 file from column freeze-up simulation,N/A,-9999,-9999,N/A,./data/
+5,column_data_spinup_smoothedMet.h5,ATS model output HDF5 file from column spinup with smoothed meteorological forcing,N/A,-9999,-9999,N/A,./data/
+6,forcing_daac_ABoVE_snowmodel_1981_2020.h5,ATS meteorological forcing HDF5 file from ABoVE SnowModel dataset 1981-2020,N/A,01 Jan 1981,31 Aug 2020,N/A,./data/
+7,forcing_daac_ABoVE_snowmodel_2019_2024.h5,ATS meteorological forcing HDF5 file from ABoVE SnowModel dataset 2019-2024,N/A,01 Jan 2019,31 Dec 2024,N/A,./data/
+8,forcing_smoothed4spinUp.h5,ATS meteorological forcing HDF5 file with smoothed data for model spinup,N/A,-9999,-9999,N/A,./data/
+9,mesh_column_imnavait.exo,Model input file (computational mesh).,N/A,-9999,-9999,N/A,./data/
+10,mesh_transect_imnavait.exo,Model input file (computational mesh).,N/A,-9999,-9999,N/A,./data/
+11,IMP-05_2023.csv,Temperature rod (thermistor) measurements at Imnavait transect site IMP-05 2023,N/A,07 Aug 2023,25 Feb 2024,N/A,./data/TRods_2023-2024/
+12,IMP-05_2024.csv,Temperature rod (thermistor) measurements at Imnavait transect site IMP-05 2024,N/A,26 June 2024,05 Sep 2024,N/A,./data/TRods_2023-2024/
+13,IMP-09_2023.csv,Temperature rod (thermistor) measurements at Imnavait transect site IMP-09 2023,N/A,07 Aug 2023,25 Feb 2024,N/A,./data/TRods_2023-2024/
+14,IMP-09_2024.csv,Temperature rod (thermistor) measurements at Imnavait transect site IMP-09 2024,N/A,26 June 2024,05 Sep 2024,N/A,./data/TRods_2023-2024/
+15,IMP-14_2023.csv,Temperature rod (thermistor) measurements at Imnavait transect site IMP-14 2023,N/A,07 Aug 2023,25 Feb 2024,N/A,./data/TRods_2023-2024/
+16,IMP-14_2024.csv,Temperature rod (thermistor) measurements at Imnavait transect site IMP-14 2024,N/A,26 June 2024,05 Sep 2024,N/A,./data/TRods_2023-2024/
+17,IMP-18_2023.csv,Temperature rod (thermistor) measurements at Imnavait transect site IMP-18 2023,N/A,07 Aug 2023,25 Feb 2024,N/A,./data/TRods_2023-2024/
+18,IMP-18_2024.csv,Temperature rod (thermistor) measurements at Imnavait transect site IMP-18 2024,N/A,26 June 2024,05 Sep 2024,N/A,./data/TRods_2023-2024/
+19,thaw_depth_vis_1981_2024.csv,Simulated thaw depth (ice table depth) time series at Imnavait 1981-2024.,N/A,01 Jan 1981,31 Dec 2024,N/A,./data/
+20,column_freezeup_imnavait.xml,Model configuration file.,N/A,-9999,-9999,N/A,./inputs/
+21,column_spinup_imnavait_realMet_daac_ABoVE_snowmodel_1981_2020.xml,Model configuration file.,N/A,-9999,-9999,N/A,./inputs/
+22,column_spinup_imnavait_realMet_daac_ABoVE_snowmodel_2019_2024.xml,Model configuration file.,N/A,-9999,-9999,N/A,./inputs/
+23,column_spinup_imnavait_smoothedMet.xml,Model configuration file.,N/A,-9999,-9999,N/A,./inputs/
+24,transect_run_imnavait_realMet_daac_ABoVE_snowmodel_1981_2020.xml,Model configuration file.,N/A,-9999,-9999,N/A,./inputs/
+25,transect_run_imnavait_realMet_daac_ABoVE_snowmodel_2019_2024.xml,Model configuration file.,N/A,-9999,-9999,N/A,./inputs/
+26,checkpoint_final.h5,Model output binary file as a checkpoint.,N/A,-9999,-9999,N/A,./runs/run01_column_freezeup/
+27,column_data.h5,ATS model output HDF5 file from column freeze-up run.,N/A,-9999,-9999,N/A,./runs/run01_column_freezeup/
+28,checkpoint_final.h5,Model output binary file as a checkpoint.,N/A,-9999,-9999,N/A,./runs/run02_column_spinup_smoothedmet/
+29,observation_columnSpinup.dat,Model output ASCII observation file for column spinup simulation.,N/A,-9999,-9999,N/A,./runs/run02_column_spinup_smoothedmet/
+30,checkpoint_final.h5,Model output binary file as a checkpoint.,N/A,-9999,-9999,N/A,./runs/run03_column_transient_calibration_SnowExp_0p24_swe_1p0_2011-2020/
+31,observation_columnSpinup.dat,Model output ASCII observation file for column spinup simulation.,N/A,01 Jan 2011,31 Aug 2020,N/A,./runs/run03_column_transient_calibration_SnowExp_0p24_swe_1p0_2011-2020/
+32,checkpoint_final.h5,Model output binary file as a checkpoint.,N/A,-9999,-9999,N/A,./runs/run03_column_transient_calibration_SnowExp_0p26_swe*0p2_2019-2024/
+33,observation_columnSpinup.dat,Model output ASCII observation file for column spinup simulation.,N/A,01 Jan 2019,31 Dec 2024,N/A,./runs/run03_column_transient_calibration_SnowExp_0p26_swe*0p2_2019-2024/
+34,checkpoint_final.h5,Model output binary file as a checkpoint.,N/A,-9999,-9999,N/A,./runs/run03_column_transient_calibration_SnowExp_0p26_swe_1p0_2011-2020/
+35,observation_columnSpinup.dat,Model output ASCII observation file for column spinup simulation.,N/A,01 Jan 2011,31 Aug 2020,N/A,./runs/run03_column_transient_calibration_SnowExp_0p26_swe_1p0_2011-2020/
+36,checkpoint_final.h5,Model output binary file as a checkpoint.,N/A,-9999,-9999,N/A,./runs/run03_column_transient_calibration_SnowExp_0p28_swe_1p2_2011-2020/
+37,observation_columnSpinup.dat,Model output ASCII observation file for column spinup simulation.,N/A,01 Jan 2011,31 Aug 2020,N/A,./runs/run03_column_transient_calibration_SnowExp_0p28_swe_1p2_2011-2020/
+38,checkpoint_final.h5,Model output binary file as a checkpoint.,N/A,-9999,-9999,N/A,./runs/run03_column_transient_calibration_SnowExp_0p30_swe_1p5_2011-2020/
+39,observation_columnSpinup.dat,Model output ASCII observation file for column spinup simulation.,N/A,01 Jan 2011,31 Aug 2020,N/A,./runs/run03_column_transient_calibration_SnowExp_0p30_swe_1p5_2011-2020/
+40,checkpoint_final.h5,Model output binary file as a checkpoint.,N/A,-9999,-9999,N/A,./runs/run04_transect_transient_1981-2020/
+41,observation_2D.dat,Model output ASCII observation file for 2D transect simulation.,N/A,01 Jan 1981,31 Aug 2020,N/A,./runs/run04_transect_transient_1981-2020/
+42,checkpoint_final.h5,Model output binary file as a checkpoint.,N/A,-9999,-9999,N/A,./runs/run_04_transect_transient_2019-2024/
+43,observation_2D.dat,Model output ASCII observation file for 2D transect simulation.,N/A,01 Jan 2019,31 Dec 2024,N/A,./runs/run_04_transect_transient_2019-2024/
+44,IC45y_Figures.ipynb,Jupyter notebook for generating figures from ATS simulation outputs.,N/A,-9999,-9999,N/A,./scripts/
+45,column_data.py,Python script to post-process ATS column simulation output.,N/A,-9999,-9999,N/A,./scripts/
+46,gen_column_imnavait.py,Python script to generate ATS column mesh for Imnavait.,N/A,-9999,-9999,N/A,./scripts/
+47,gen_imnavait_transect.py,Python script to generate ATS transect mesh for Imnavait.,N/A,-9999,-9999,N/A,./scripts/
+48,smooth_met.py,Python script to smooth meteorological forcing data for model spinup.,N/A,-9999,-9999,N/A,./scripts/
+49,__init__.py,Python package initialization file for utils module.,N/A,-9999,-9999,N/A,./scripts/utils/
+50,analysis.py,Python utility module for time-series extraction and statistical analysis of ATS outputs.,N/A,-9999,-9999,N/A,./scripts/utils/
+51,data_io.py,Python utility module for I/O helpers for ATS simulation data.,N/A,-9999,-9999,N/A,./scripts/utils/
+52,mesh_utils.py,Python utility module for mesh processing utilities.,N/A,-9999,-9999,N/A,./scripts/utils/
+53,plotting.py,Python utility module for visualization helpers for ATS simulation outputs.,N/A,-9999,-9999,N/A,./scripts/utils/
